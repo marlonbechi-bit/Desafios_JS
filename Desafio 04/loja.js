@@ -18,10 +18,10 @@ const produtos = [
     { nome: "Mouse" , preco: 120},
     { nome: "Monitor" , preco: 150},
     { nome: "Impressora" , preco: 101}
-]
+];
 
 for ( let i = 0; i < produtos.length; i++) {
     if (produtos[i].preco > 100) {
         console.log(produtos[i].nome);
     }
-}
+};
